@@ -15,16 +15,22 @@
         }
     ],
     "require": {
-        "php" : ">=5.5.0",
-        "illuminate/support": "^5.1|^6.0|^7.0|^8.0"
+        "php" : ">=7.3",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "illuminate/http": "^6.0|^7.0|^8.0"
     },
     "require-dev": {
-        "mockery/mockery": "^0.9.4",
-        "phpunit/phpunit": "^5.0"
+        "mockery/mockery": "^1.5",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
             "Seaston\\LaravelErrors\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Seaston\\LaravelErrors\\Tests\\": "tests"
         }
     }
 }
